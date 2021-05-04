@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChaTwitter login</title>
+        <link rel="icon" href="Icon logo.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <span id="left_panel" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-warning">
+            <h1 style="font-size: 40px;"><b>Welcome!</b></h1>
+            <h2>To ChaTwitter</h2>
+            <h3>Chat with the world</h3>
+            <center>
+                <img class="img-responsive" src="Icon logo.png">
+            </center>
+        </span>
+        <span id="right_panel" class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+            <center>
+                <img class="img-responsive" src="Logo.png">
+            </center>
+        </span>
+        <div id="bottom_panel" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center; padding: 20px;">
+            <h1 style="font-size: 40px;">Login with your username</h1>
+            <h2>In case you haven't signed in, we will sign you in</h2>
+            <br>
+            <div id="sign_in">
+                <label><b>Username:</b></label>
+                <input style="border-color: black !important;" id="username" class="form-control" type="text" placeholder="Username">
+                <br>
+                <button style="width: 30% !important;" class="btn btn-success" type="button" onclick="go_next()">Login</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

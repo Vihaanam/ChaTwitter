@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChaTwitter</title>
+        <link rel="icon" href="Icon logo.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="chatwitter_style.css">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    </head>
+    <body style="text-align: right; background-color: aqua; padding: 20px; font-family: 'Itim', cursive;">
+        <button class="btn btn-danger glyphicon glyphicon-log-out" id="logout"></button>
+        <div style="padding: 10px; text-align: center; margin-top: 20px;">
+            <hr>
+            <img src="Logo.png">
+            <hr>
+            <br>
+            <h1 id="welcome"></h1>
+            <br>
+            <h2>#Add rooms</h2>
+            <h3><b>#Room name</b></h3>
+            <input type="text" class="form-control" id="room_name" placeholder="Enter room name">
+            <br>
+            <button type="button" onclick="addRoom()">#Add Room</button>
+            <br>
+            <br>
+            <h2>#Trending rooms</h2>
+        </div>
+        <script src="chatwitter_main.js"></script>
+    </body>
+</html>

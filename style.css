@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to right, lightgreen, aqua, lightgreen);
+    text-align: center;
+}
+#left_panel {
+    float: left !important;
+    padding: 20px !important;
+}
+#right_panel {
+    float: right !important;
+    text-align: center;
+    padding: 20px !important;
+}
+#sign_in {
+    background-color: white;
+    border-style: double;
+    border-color: black;
+    padding: 10px;
+}

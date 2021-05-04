@@ -1,0 +1,17 @@
+#logout {
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+}
+input {
+    font-size: 25px !important;
+    height: 40px !important;
+    border-color: black !important;
+}
+button {
+    background-color: greenyellow;
+    border-width: 2px;
+    border-color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
