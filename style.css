@@ -5,6 +5,7 @@ body {
 #left_panel {
     float: left !important;
     padding: 20px !important;
+    border-radius: 50%;
 }
 #right_panel {
     float: right !important;
@@ -12,8 +13,6 @@ body {
     padding: 20px !important;
 }
 #sign_in {
-    background-color: white;
-    border-style: double;
-    border-color: black;
+    border-radius: 25px;
     padding: 10px;
 }

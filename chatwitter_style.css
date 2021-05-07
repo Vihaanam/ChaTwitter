@@ -15,3 +15,9 @@ button {
     font-size: 25px;
     border-radius: 10px;
 }
+#output {
+    padding: 20px;
+    background-color: lightcoral;
+    border-radius: 25px;
+    color: aliceblue;
+}
