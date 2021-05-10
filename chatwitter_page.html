@@ -1,5 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+    <head>        
+        <title>ChaTwitter page</title>
+        <link rel="icon" href="Icon logo.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="page_style.css">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    </head>
+    <body style="text-align: right; background-color: aqua; padding: 20px; font-family: 'Itim', cursive;">
+        <button class="btn btn-danger glyphicon glyphicon-log-out" id="logout" onclick="logOut()"></button>
+        <div style="padding: 10px; text-align: center; margin-top: 20px;">
+            <hr>
+            <img src="Logo.png">
+            <hr>
+            <br>
+            <div id="output"></div>
+        </div>
+        <div style="background-color: skyblue; text-align: center !important; border-radius: 30px;">
+            <br>
+            <center>
+                <h4>Type your message here</h4>
+                <input type="text" class="form-control" id="msg" placeholder="Message">
+                <br>
+                <button type="button" onclick="send()">Send</button>
+                <br>
+                <br>
+            </center>
+        </div>
+        <script src="page_main.js"></script>
+    </body>
 </html>

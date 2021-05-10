@@ -1,0 +1,22 @@
+#logout {
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+}
+#output {
+    padding: 20px;
+    background-color: lightcoral;
+    border-radius: 25px;
+    color: aliceblue;
+}
+input {
+    width: 90% !important;
+}
+button {
+    background-color: greenyellow;
+    border-width: 2px;
+    border-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 15%;
+}
