@@ -8,6 +8,10 @@
     background-color: lightcoral;
     border-radius: 25px;
     color: aliceblue;
+    text-align: left;
+}
+#output h4 {
+    font-size: 25px !important;
 }
 input {
     width: 90% !important;
@@ -19,4 +23,12 @@ button {
     font-size: 20px;
     border-radius: 10px;
     width: 15%;
+}
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color: navy;
 }
